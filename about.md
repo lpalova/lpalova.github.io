@@ -3,9 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-Self-Starter, Experienced Researcher And Data Analyst
 
-My Story
+## My Story
 I am a trained physicist with a Ph.D. (2010) from Rutgers. I have worked in computational and theoretical physics. As a postdoctoral researcher at Columbia University, I modeled nanomaterials using software simulation packages. I collaborated with other scientists, presented at conferences and published my work in top peer-reviewed journals.
 I am well versed in basic statistical and data manipulation methods. Recently, I got certified in data science specialization by John Hopkins University on Coursera (2015). Samples of my work are available on github: https://github.com/lpalova
 I am fluent in R, Python and familiar with Java, Git/Github, Unix commands, Shiny, Slidify, RStudio, office/presentation software, SQL and basics of Spark.
