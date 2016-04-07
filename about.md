@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 I am a trained physicist with a Ph.D. (2010) from Rutgers. I worked in computational and theoretical physics. 
-As a postdoctoral researcher at Columbia University, I modeled 
+As a graduate student at Rutgers and a postdoctoral researcher at Columbia University, I modeled 
 [nanomaterials](http://science.sciencemag.org/content/333/6045/999.abstract)
 using software [simulation](https://www.vasp.at/) [packages](http://www.quantum-espresso.org/).
 <!-- I collaborated with other scientists, presented at conferences and published my work in top peer-reviewed journals.-->
