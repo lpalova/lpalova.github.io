@@ -18,7 +18,7 @@ I have a passion for the field of education. I have been teaching physics, chemi
 <!--I have full responsibility for managing and running my classes. I am in charge of creating syllabi, exam questions and teaching materials, grading, and working with classroom presentation equipment.-->
 
 ### More Information
-I am a self-starter, experienced researcher and data analyst. In my free time, I also love playing volleyball and canoeing/kayaking. 
+I am a self-starter, experienced researcher and data analyst. I don't have much free time, but if I had some, I would spend it playing volleyball and canoeing/kayaking. 
 
 ### Contact me
 
