@@ -36,6 +36,8 @@ There is in general more activity during the day, especially in the early aftern
 ![86th street entries](/images/MTA/entries/heatmap_72 ST, 123.png)
 
 We also look at the traffic exiting the turnstiles for the same three stations: ''34 ST-PENN STA'' (all traffic through all the turnstiles at Penn), ''86 ST, 456'' and ''72 ST, 123''. Our results are plotted below.
+Penn Station exit turnstiles show less traffic during morning peak hours. That is, less people are leaving Penn Station subway turnstiles (e.g. to take trains) in the morning. The afternoon rush hour is clearly seen during the 4-8pm time strip Mondays-Thursdays and noon-8pm time window on Fridays.
+Similar patterns are seen for the ''86 ST, 456" and ''72 ST, 123", with relatively more traffic during the weekends.
 
 ![Penn Station exits](/images/MTA/exits-by-station/heatmap_34 ST-PENN STA.png)
 ![86th street exits](/images/MTA/exits/heatmap_86 ST, 456.png)
