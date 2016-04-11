@@ -14,11 +14,9 @@ Through analysis of the collected data in a certain time interval, we are identi
 ![Top 20 Stations by total entries](images/MTA/entries/top_20_entries_lines_stations.png)
 ![Top 20 Stations by total exits](images/MTA/exits/top_20_exits_lines_stations.png)
 
-The two figures above show the top 20 stations in terms of most entries and exits. Notice that a station is uniquely identified by station name and line name. For example, 86th street on Upper East Side is ''86 ST, 456''. Similarly, Penn Station is characterized by three turnstile groups: ''34ST-PENN STA, ACE'', ''34ST-PENN STA, 123ACE'', and ''34ST-PENN STA, 123''. The ambiguity of the 34ST-Penn Station notation is unfortunate here. Most stations are however identified uniquely by the above rule. A closer analysis, where we count all subway lines per station, shows that ''34ST-PENN STA'' is the number one hub for commuters, followed by ''42ST-GRD CNTRL'' (Grand Central Station) and ''34ST-HERALD SQ''.
+The two figures above show the top 20 stations in terms of most entries and exits. Notice that a station is uniquely identified by station name and line name. For example, 86th street on Upper East Side is ''86 ST, 456''. Similarly, Penn Station, New York is characterized by three turnstile groups: ''34ST-PENN STA, ACE'', ''34ST-PENN STA, 123ACE'', and ''34ST-PENN STA, 123''. The ambiguity of 34ST-Penn Station notation is unfortunate here. However, most stations are identified uniquely by using the above rule. A closer analysis, where we count all subway lines per station, shows that ''34ST-PENN STA'' is the number one hub for commuters, followed by ''42ST-GRD CNTRL'' (Grand Central Station) and ''34ST-HERALD SQ''.
 
-shows that counting all station entries show Penn station number 1 commuting stop, followed by ... and ... .
 
-Fig. exits
 
 If we exclude ... , ... , .. and ... from our analysis, and plot the most frequent MTA stations again, we notice that ... is number 1 station, followed by ... and ... .
 The entries and exits figures below show ...
