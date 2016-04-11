@@ -7,14 +7,13 @@ title:
 
 # MTA Turnstile Data
 
-MTA has publicly available [datasets](http://web.mta.info/developers/turnstile.html) on the turnstile activity. The data is recorded weekly. Each observation consists of a timestamp, a unique identifier of a turnstile device (such as a station name, line name, area, and subunit channel position), the cumulative entry and exit register values for a device and a few other features.
+MTA has publicly available [datasets](http://web.mta.info/developers/turnstile.html) on turnstile activity. The data is recorded weekly. Each observation consists of a timestamp, a unique identifier of a turnstile device (such as a station name, line name, area, and subunit channel position), the cumulative entry and exit register values for a device and a few other features.
 
-Through analysis of the collected data in a certain time interval, we are identifying the most frequent train stations and the busiest times on a given day of an average week (Monday, Tuesday, .. Sunday). As expected, the commuter hub stations such as 42St - Grand Central, 34St - Herald Square, 42St - Times Square, or 34St - Penn Station show most turnstile activity. Our goal here is to find other frequent commuter stations that might not be easily identified based on simple transit patterns or other common sense assumptions.
+Through analysis of the collected data in a certain time interval (end of April through beginning of June), we are identifying the most frequent subway stations and the busiest times on a given day of an average week (Monday, Tuesday, .. Sunday). As expected, the commuter hub stations such as 34St - Penn Station, 42St - Grand Central, 34St - Herald Square or 42St - Times Square show most turnstile activity. Our goal is to find other frequent commuter stations that might not be easily identified based on transit patterns.
 
-The two figures below show the top 20 stations in terms of most entries and exits. Notice that a station is uniquely identified by a station name and line name. For example, 86th street on Upper East Side is ''86 ST, 456''. Similarly, Penn Station, New York is characterized by three turnstile groups: ''34ST-PENN STA, ACE'', ''34ST-PENN STA, 123ACE'', and ''34ST-PENN STA, 123''. The ambiguity of 34ST-Penn Station notation is unfortunate here. However, most stations are identified uniquely by using the station and line name key. A closer analysis where we count all subway lines per station shows ''34ST-PENN STA'' as the number one hub for commuters, followed by ''42ST-GRD CNTRL'' (Grand Central Station) and ''34ST-HERALD SQ''. ''14ST-UNION SQ'', ''47-50 ST-ROCK'' (Rockefeller Center), ''59ST-COLUMBUS'' (Columbus Circle), ''CANAL ST'', ''W 4 ST-WASH SQ''(Washington Square), ''PATH WTC 1'' (World Trade Center), ''JAMAICA CENTER'', similarly as ''34ST-HERALD SQ'', show a lot of turnstile traffic;
-this traffic can be explained by multiple subway lines (or subway, PATH or other train lines)
-intersecting these stations (so called ''commuters junctions'').
-Interestingly, ''86 ST, 456'' (Upper East Side) and ''72 ST, 123'' (Upper West Side) show comparable amount of turnstile traffic, and we will analyze these stations along with a typical commuter's hub station next.
+The two figures below show the top 20 stations in terms of most entries and exits. Notice that a station in the dataset is uniquely identified by a station name and line name. For example, 86th street on Upper East Side is ''86 ST, 456''. Similarly, Penn Station, New York is characterized by three turnstile groups: ''34ST-PENN STA, ACE'', ''34ST-PENN STA, 123ACE'', and ''34ST-PENN STA, 123''. The ambiguity in the 34ST-Penn Station notation is unfortunate. However, most stations identifiers are unique and we can deal with the few that are not case by case. A closer analysis, where we count all subway lines per station, shows ''34ST-PENN STA'' as the number one hub for commuters, followed by ''42ST-GRD CNTRL'' (Grand Central Station) and ''34ST-HERALD SQ''. Similarly as ''34ST-HERALD SQ'', ''14ST-UNION SQ'', ''47-50 ST-ROCK'' (Rockefeller Center), ''59ST-COLUMBUS'' (Columbus Circle), ''CANAL ST'', ''W 4 ST-WASH SQ''(Washington Square), ''PATH WTC 1'' (World Trade Center) and ''JAMAICA CENTER'' show a lot of turnstile traffic;
+this traffic can be explained by multiple subway lines (or subway, PATH or other train lines) intersecting at these stations (so called ''commuters junctions'').
+Interestingly, ''86 ST, 456'' (Upper East Side) and ''72 ST, 123'' (Upper West Side) show comparable amount of turnstile traffic to the commuter junctions and hubs, and we will analyze these stations along with a typical commuter's hub next.
 
 ![Top 20 Stations by total entries](/images/MTA/entries/top_20_entries_lines_stations.png)
 ![Top 20 Stations by total exits](/images/MTA/exits/top_20_exits_lines_stations.png)
@@ -25,16 +24,25 @@ The entries and exits figures below show ...
 
 Fig. entries, Fig. exits -- excluding obvious stops such as Penn, 42nd, Grand Central. -->
 
-In order to get a feeling for how the turnstile traffic looks for an average week, we created heatmaps that shows the number of entries/exits as a function of day and a 4-hour time block. For example, a 04:00:00 block shows the number of entries/exits in the midnight (00:00:00) to 4am time window. Similarly, a 20:00:00 block shows the number of entries/exits in the 4pm (16:00:00) to 8pm (20:00:00) time window, that is, it generally captures the afternoon peak traffic hours.
+In order to get a feeling of how the turnstile traffic looks for an average week, we create heatmaps that shows the number of entries/exits as a function of day and a 4-hour time block. For example, a 04:00:00 block shows the number of entries/exits in the midnight (00:00:00) to 4am time window. Similarly, a 20:00:00 block shows the number of entries/exits in the 4pm (16:00:00) to 8pm (20:00:00) time window, that is, generally during the afternoon peak traffic hours window.
 
-The figures below show traffic entries/exit patterns for Penn Station, .. . We compare them to two other stations: ... and ... .
-Describe.
+We compare turnstile entries for three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123'' in the figures below:
+
+![Penn Station entries](/images/MTA/entries/heatmap_34 ST-PENN STA, ACE.png)
+![86th street entries](/images/MTA/entries/heatmap_86 ST, 456.png)
+![86th street entries](/images/MTA/entries/heatmap_72 ST, 123.png)
+
+Similary, we compare turnstile exits for the same three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123'' in the figures below:
+
+![Penn Station exits](/images/MTA/exits/heatmap_34 ST-PENN STA, ACE.png)
+![86th street exits](/images/MTA/exits/heatmap_86 ST, 456.png)
+![86th street exits](/images/MTA/exits/heatmap_72 ST, 123.png)
+
+Notice that Penn Station has two very characteristic commuter peaks during the morning and afternoon rush hours: 8am-noon and 4-8pm, Monday-Friday. We also see that Friday traffic is ... than the other weekdays. 
+
 
 Our preliminary analysis of the data shows rich patterns in the MTA commute, and allows us to draw conclusions ..
 App next steps.
-
-
-
 
 
 
