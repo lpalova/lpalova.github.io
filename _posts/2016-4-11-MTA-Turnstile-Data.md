@@ -24,7 +24,7 @@ The entries and exits figures below show ...
 
 Fig. entries, Fig. exits -- excluding obvious stops such as Penn, 42nd, Grand Central. -->
 
-In order to get a feeling of how the turnstile traffic looks for an average week, we create heatmaps that shows the number of entries/exits as a function of day and a 4-hour time block. For example, a 04:00:00 block shows the number of entries/exits in the midnight (00:00:00) to 4am time window. Similarly, a 20:00:00 block shows the number of entries/exits in the 4pm (16:00:00) to 8pm (20:00:00) time window, that is, generally during the afternoon peak traffic hours window.
+In order to get a feeling for how the turnstile traffic looks for an average week, we create heatmaps that shows the number of entries/exits as a function of day and a 4-hour time block. For example, a 04:00:00 block shows the number of entries/exits in the midnight (00:00:00) to 4am time window. Similarly, a 20:00:00 block shows the number of entries/exits in the 4pm (16:00:00) to 8pm (20:00:00) time window, that is, generally during the afternoon peak traffic hours.
 
 We compare turnstile entries for three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123'' in the figures below:
 
@@ -32,7 +32,7 @@ We compare turnstile entries for three stations: ''34 ST-PENN STA, ACE'', ''86 S
 ![86th street entries](/images/MTA/entries/heatmap_86 ST, 456.png)
 ![86th street entries](/images/MTA/entries/heatmap_72 ST, 123.png)
 
-Similary, we compare turnstile exits for the same three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123'' in the figures below:
+Similary, turnstile exits traffics for the same three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123'' are in the figures below:
 
 ![Penn Station exits](/images/MTA/exits/heatmap_34 ST-PENN STA, ACE.png)
 ![86th street exits](/images/MTA/exits/heatmap_86 ST, 456.png)
