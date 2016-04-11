@@ -43,6 +43,13 @@ Similar patterns are seen for the ''86 ST, 456" and ''72 ST, 123", with relative
 ![86th street exits](/images/MTA/exits/heatmap_86 ST, 456.png)
 ![86th street exits](/images/MTA/exits/heatmap_72 ST, 123.png)
 
+Our analysis allows us to compare subway traffic at different times during days, look at the weekday vs. weekend traffic and compare traffic at ''regular'' vs. ''commuter hub'' stations. One of our future goals is to create a clickable app that would allow people to choose a subway station and see its average traffic patterns based on the entries/exits turnstile history as well as predict future traffic through the station. 
+
+One of the small outcomes of this analysis is our 
+
+to suggest an opportunistic time window and subway stations for a theoretical street survey (on a topic of your choice). 
+We find that, for example, Upper East & Upper West Side stations such as ''86 ST, 456'' and ''72 ST, 123'' show comparable traffic volume as more frequent subway stations such as Penn Station. These stations also show more activity (in relative terms) during the day. As one can imagine, stopping people for a survey while they are trying to catch their connecting subway/train/PATH is not an ideal scenario. It is way better to approach someone while waiting for their train in less crowded, but still frequent station stop. 
+
 
 
 <!-- App next steps. -- >
