@@ -35,7 +35,7 @@ There is in general more activity during the day, especially in the early aftern
 ![86th street entries](/images/MTA/entries/heatmap_86 ST, 456.png)
 ![86th street entries](/images/MTA/entries/heatmap_72 ST, 123.png)
 
-Similary, turnstile exits traffics for the same three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123'' are in the figures below:
+We also look at the traffic exiting the turnstiles for the same three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123''. Our results are plotted below.
 
 ![Penn Station exits](/images/MTA/exits/heatmap_34 ST-PENN STA, ACE.png)
 ![86th street exits](/images/MTA/exits/heatmap_86 ST, 456.png)
