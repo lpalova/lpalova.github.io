@@ -11,17 +11,18 @@ MTA has publicly available [datasets](http://web.mta.info/developers/turnstile.h
 
 Through analysis of the collected data in a certain time interval, we are identifying the most frequent train stations and the busiest times on a given day of an average week (Monday, Tuesday, .. Sunday). As expected, the commuter hub stations such as 42St - Grand Central, 34St - Herald Square, 42St - Times Square, or 34St - Penn Station show most turnstile activity. Our goal here is to find other frequent commuter stations that might not be easily identified based on simple transit patterns or other common sense assumptions.
 
-The two figures below show the top 20 stations in terms of most entries and exits. Notice that a station is uniquely identified by a station name and line name. For example, 86th street on Upper East Side is ''86 ST, 456''. Similarly, Penn Station, New York is characterized by three turnstile groups: ''34ST-PENN STA, ACE'', ''34ST-PENN STA, 123ACE'', and ''34ST-PENN STA, 123''. The ambiguity of 34ST-Penn Station notation is unfortunate here. However, most stations are identified uniquely by using the station and line name key. A closer analysis where we count all subway lines per station shows ''34ST-PENN STA'' as the number one hub for commuters, followed by ''42ST-GRD CNTRL'' (Grand Central Station) and ''34ST-HERALD SQ''.
+The two figures below show the top 20 stations in terms of most entries and exits. Notice that a station is uniquely identified by a station name and line name. For example, 86th street on Upper East Side is ''86 ST, 456''. Similarly, Penn Station, New York is characterized by three turnstile groups: ''34ST-PENN STA, ACE'', ''34ST-PENN STA, 123ACE'', and ''34ST-PENN STA, 123''. The ambiguity of 34ST-Penn Station notation is unfortunate here. However, most stations are identified uniquely by using the station and line name key. A closer analysis where we count all subway lines per station shows ''34ST-PENN STA'' as the number one hub for commuters, followed by ''42ST-GRD CNTRL'' (Grand Central Station) and ''34ST-HERALD SQ''. ''14ST-UNION SQ'', ''47-50 ST-ROCK'' (Rockefeler Center),  similarly as ''34ST-HERALD SQ'', shows a lot of turnstile traffic;
+this can be explained by multiple subway lines intersecting these stations (commuters  as well as  
+these two subway stations are mostly because this subway stop is a 
 
 ![Top 20 Stations by total entries](/images/MTA/entries/top_20_entries_lines_stations.png)
 ![Top 20 Stations by total exits](/images/MTA/exits/top_20_exits_lines_stations.png)
 
 
-If we exclude ... , ... , .. and ... from our analysis, and plot the most frequent MTA stations again, we notice that ... is number 1 station, followed by ... and ... .
+<!--If we exclude ... , ... , .. and ... from our analysis, and plot the most frequent MTA stations again, we notice that ... is number 1 station, followed by ... and ... .
 The entries and exits figures below show ...
 
-Fig. entries, Fig. exits -- excluding obvious stops such as Penn, 42nd, Grand Central.
-
+Fig. entries, Fig. exits -- excluding obvious stops such as Penn, 42nd, Grand Central. -->
 
 In order to get a feeling for how the turnstile traffic looks for an average week, we created heatmaps that shows the number of entries/exits as a function of day and a 4-hour time block. For example, a 04:00:00 block shows the number of entries/exits in the midnight (00:00:00) to 4am time window. Similarly, a 20:00:00 block shows the number of entries/exits in the 4pm (16:00:00) to 8pm (20:00:00) time window, that is, it generally captures the afternoon peak traffic hours.
 
