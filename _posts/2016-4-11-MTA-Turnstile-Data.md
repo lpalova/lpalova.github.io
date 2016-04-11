@@ -14,8 +14,7 @@ Through analysis of the collected data in a certain time interval, we are identi
 The two figures below show the top 20 stations in terms of most entries and exits. Notice that a station is uniquely identified by a station name and line name. For example, 86th street on Upper East Side is ''86 ST, 456''. Similarly, Penn Station, New York is characterized by three turnstile groups: ''34ST-PENN STA, ACE'', ''34ST-PENN STA, 123ACE'', and ''34ST-PENN STA, 123''. The ambiguity of 34ST-Penn Station notation is unfortunate here. However, most stations are identified uniquely by using the station and line name key. A closer analysis where we count all subway lines per station shows ''34ST-PENN STA'' as the number one hub for commuters, followed by ''42ST-GRD CNTRL'' (Grand Central Station) and ''34ST-HERALD SQ''. ''14ST-UNION SQ'', ''47-50 ST-ROCK'' (Rockefeller Center), ''59ST-COLUMBUS'' (Columbus Circle), ''CANAL ST'', ''W 4 ST-WASH SQ''(Washington Square), ''PATH WTC 1'' (World Trade Center), ''JAMAICA CENTER'', similarly as ''34ST-HERALD SQ'', show a lot of turnstile traffic;
 this traffic can be explained by multiple subway lines (or subway, PATH or other train lines)
 intersecting these stations (so called ''commuters junctions'').
-Interestingly, ''86 ST, 456'' and ''72 ST, 123'' show comparable amount of turnstile traffic, 
-and we will analyze these test stations along with a typically commuter's hub station next.
+Interestingly, ''86 ST, 456'' (Upper East Side) and ''72 ST, 123'' (Upper West Side) show comparable amount of turnstile traffic, and we will analyze these test stations along with a typically commuter's hub station next.
 
 ![Top 20 Stations by total entries](/images/MTA/entries/top_20_entries_lines_stations.png)
 ![Top 20 Stations by total exits](/images/MTA/exits/top_20_exits_lines_stations.png)
