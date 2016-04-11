@@ -35,20 +35,15 @@ There is in general more activity during the day, especially in the early aftern
 ![86th street entries](/images/MTA/entries/heatmap_86 ST, 456.png)
 ![86th street entries](/images/MTA/entries/heatmap_72 ST, 123.png)
 
-We also look at the traffic exiting the turnstiles for the same three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123''. Our results are plotted below.
+We also look at the traffic exiting the turnstiles for the same three stations: ''34 ST-PENN STA'' (all traffic through all the turnstiles at Penn), ''86 ST, 456'' and ''72 ST, 123''. Our results are plotted below.
 
-![Penn Station exits](/images/MTA/exits/heatmap_34 ST-PENN STA, ACE.png)
+![Penn Station exits](/images/MTA/exits-by-station/heatmap_34 ST-PENN STA.png)
 ![86th street exits](/images/MTA/exits/heatmap_86 ST, 456.png)
 ![86th street exits](/images/MTA/exits/heatmap_72 ST, 123.png)
 
-Notice that Penn Station has two very characteristic commuter peaks during the morning and afternoon rush hours: 8am-noon and 4-8pm, Monday-Friday. We also see that Friday traffic is ... than the other weekdays. 
 
 
-Our preliminary analysis of the data shows rich patterns in the MTA commute, and allows us to draw conclusions ..
-App next steps.
-
-
+<!-- App next steps. -- >
 
 <!--![_config.yml]({{ site.baseurl }}/images/config.png)-->
-
 <!--The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.-->
