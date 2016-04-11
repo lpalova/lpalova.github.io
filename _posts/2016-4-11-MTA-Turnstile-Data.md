@@ -29,7 +29,7 @@ In order to get a feeling for how the turnstile traffic looks for an average wee
 We compare turnstile entries for three stations: ''34 ST-PENN STA, ACE'', ''86 ST, 456'' and ''72 ST, 123'' in the figures below. Notice that Penn Station has two very characteristic commuter peaks during the morning and afternoon rush hours: 8am-noon and 4-8pm, Monday-Friday. We also see that Friday traffic is less pronounced than traffic during the other weekdays. We need to mention that our analysis includes the Memorial Day weekend which in turn contributes to less averaged traffic on Mondays and Fridays. Nevertheless, the morning and afternoon time window strips are clearly distinguished patterns in the (ACE) 34-ST PENN traffic (123-line turnstiles show comparable traffic pattern) and vanish during a weekend, as expected, because of less commute to/from the city. There are also no trains from/to Penn in the early mornings, and therefore there is almost no activity at the turnstiles during the midnight to 4am time window.
 
 The '86 ST,456' on the Upper East Side and '72 ST, 123' on the Upper West Side show quite different patterns. 
-
+There is in general more activity during the day, especially in the early afternoon hours and on the weekends. There is also some activity entering or exiting the turnstiles late at night that is in volume comparable to Penn Station traffic.
 
 ![Penn Station entries](/images/MTA/entries/heatmap_34 ST-PENN STA, ACE.png)
 ![86th street entries](/images/MTA/entries/heatmap_86 ST, 456.png)
