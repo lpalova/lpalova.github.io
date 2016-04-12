@@ -43,13 +43,14 @@ Similar patterns are seen for the ''86 ST, 456" and ''72 ST, 123", with relative
 ![86th street exits](/images/MTA/exits/heatmap_86 ST, 456.png)
 ![86th street exits](/images/MTA/exits/heatmap_72 ST, 123.png)
 
-Our analysis allows us to compare subway traffic at different times during days, look at the weekday vs. weekend traffic and compare traffic at ''regular'' vs. ''commuter hub'' stations. One of our future goals is to create a clickable app that would allow people to choose a subway station and see its average traffic patterns based on the entries/exits turnstile history as well as predict future traffic through the station. 
+Our analysis allows us to compare subway traffic at different times during days, look at the weekday vs. weekend traffic and compare traffic at ''regular'' vs. ''commuter hub'' stations. One of our future goals is to create a clickable app that would allow people to choose a subway station and see its average traffic patterns based on the entries/exits turnstile history, as well as predict future station traffic for a given day/time window. 
 
-One of the small outcomes of this analysis is our 
+One of the small outcomes of our preliminary work is [this preentation](). 
+In an idealistic world, one might suggest an opportunistic time window and subway stations for a street survey (on a topic of one's taste). We suggest that, for example, the Upper East & Upper West Side stations such as ''86 ST, 456'' and ''72 ST, 123'' show comparable traffic volume as more frequent subway hub stations such as Penn Station. These stations also show more activity (in relative terms) during the day compared to Penn. As one can imagine, stopping people for a survey while they are trying to catch their connecting subway/train/PATH is not an ideal scenario. It is way better to approach people (with a big smile on one's face) while waiting for their train in less crowded, but still frequent station stop. 
+The outcomes might be surprising! (Why not try a survey?)
 
-to suggest an opportunistic time window and subway stations for a theoretical street survey (on a topic of your choice). 
-We find that, for example, Upper East & Upper West Side stations such as ''86 ST, 456'' and ''72 ST, 123'' show comparable traffic volume as more frequent subway stations such as Penn Station. These stations also show more activity (in relative terms) during the day. As one can imagine, stopping people for a survey while they are trying to catch their connecting subway/train/PATH is not an ideal scenario. It is way better to approach someone while waiting for their train in less crowded, but still frequent station stop. 
-
+Acknowledments to: Ian London, Rachel Rho and Patrick Nieto.
+[Source code](https://github.com/patricknieto/MTA-analysis/blob/master/Lucia-Benson-project.ipynb).
 
 
 <!-- App next steps. -- >
