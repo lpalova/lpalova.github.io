@@ -3,7 +3,7 @@ layout: post
 title: 
 ---
 
-*Work in progress*
+*(Work in progress)*
 
 MTA has publicly available [datasets](http://web.mta.info/developers/turnstile.html) on turnstile activity. The data is recorded weekly. Each observation consists of a timestamp, a unique identifier of a turnstile device (such as a station name, line name, area, and subunit channel position), the cumulative entry and exit register values for a device and a few other features.
 
