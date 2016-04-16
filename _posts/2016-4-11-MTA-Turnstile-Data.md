@@ -5,8 +5,6 @@ title:
 
 *Work in progress*
 
-# MTA Turnstile Data
-
 MTA has publicly available [datasets](http://web.mta.info/developers/turnstile.html) on turnstile activity. The data is recorded weekly. Each observation consists of a timestamp, a unique identifier of a turnstile device (such as a station name, line name, area, and subunit channel position), the cumulative entry and exit register values for a device and a few other features.
 
 Through analysis of the collected data in a certain time interval (end of April through beginning of June), we are identifying the most frequent subway stations and the busiest times on a given day of an average week (Monday, Tuesday, .. Sunday). As expected, the commuter hub stations such as 34St - Penn Station, 42St - Grand Central, 34St - Herald Square or 42St - Times Square show most turnstile activity. Our goal is to find other frequent commuter stations that might not be easily identified based on transit patterns.
