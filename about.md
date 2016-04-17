@@ -4,13 +4,13 @@ title: My Story
 permalink: /about/
 ---
 
-I am a trained physicist with a Ph.D. (2010) from Rutgers. I worked in computational and theoretical physics. 
+I am a trained research physicist with a Ph.D. (2010) from Rutgers. I worked in computational and theoretical physics. 
 As a graduate student at Rutgers and a postdoctoral researcher at Columbia University, I modeled 
 [nanomaterials](http://science.sciencemag.org/content/333/6045/999.abstract)
 using software [simulation](https://www.vasp.at/) [packages](http://www.quantum-espresso.org/).
 <!-- I collaborated with other scientists, presented at conferences and published my work in top peer-reviewed journals.-->
 
-I am well versed in basic statistical and data manipulation methods. I am currently a data scientist at 
+I am well versed in statistical and data manipulation methods. I am currently a data scientist at 
 [Metis](http://www.thisismetis.com/) (Spring 2016). I got certified in data science specialization by John Hopkins University on [Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/LL4BR8M6KAGX) (2015). Samples of my work are available on [GitHub](https://github.com/lpalova).
 I am fluent in R, Python and familiar with Java, Git/Github, Unix commands, Shiny, Slidify, RStudio, office/presentation software, SQL.
 
