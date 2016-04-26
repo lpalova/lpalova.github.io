@@ -34,10 +34,19 @@ However, predicting a human-related behavior is a tough job in general. In the a
 
 But wait, what about all the movie information on actors or producers? Afterall, I would love to see a movie with my favorite superhero (and I'm not listening to anyone's objections, sorry, no reviews yet). What about producer? Director? Movie quality should be related to the quality of those who produce it! 
 It turns out that even by scoring the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R<sup>2</sup> is about 0.45. 
-However, as soon as we allow to account for information that is more predictive in its nature, such as
+On the other hand, as soon as we allow to account for information that is more predictive in its nature, such as
 count of theaters (typically an expected high-performance movie will be released in more theaters) or 
 [movie rating](http://www.metacritic.com/),
 the predictive power increases.
+
+Let's forget about the R<sup>2</sup> value for a moment, and let's focus our attention on the model itself.
+The significant coefficients, that is, the linear coefficients for ``production budget``, ``actors score`` and ``producer score`` still represent the mean change in the response for one unit of change in the predictor while holding other predictors in the model constant. This said, our estimator is still the best linear unbiased estimator,
+and this type of information can be valuable.
+To conclude, we find that the mean change in the ``domestic total gross`` per $1 investment in the ``production budget`` is 
+about $0.8, per $1 of the producer score (higher score means producing more revenue for past movies) 
+is about $0.2, and per $1 of the actors score (looking only at the best performing actor per movie) 
+is about $0.1.
+[Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)
 
 
 
