@@ -25,7 +25,7 @@ October-December have the most records, January-February have the least records.
 ![Box Office Mojo Records](/images/BoxOfficeMojo/actorproducer_count_vs_year+month.png)
 
 We perform [ordinary least squares](https://en.wikipedia.org/wiki/Ordinary_least_squares) fit
-and find that the domestic total gross can be estimated based on the production budget with a prediction power measured by 
+and find that domestic total gross is estimated based on the production budget with a prediction power measured by 
 R<sup>2</sup>.
 
 
