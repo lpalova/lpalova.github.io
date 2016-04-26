@@ -20,7 +20,7 @@ Because our question of interest is ``How much will I earn on a movie's (domesti
 production budget.
 Let's see how we perform.
 
-Box Office Mojo was founded in 1999. When we look at their number of records per year, we soon realize that there is a jump in the number of records around the year the company was founded. For our purposes, we decide to use only recordings with a release date of 1999 or a later year. Notice also that the number of movies released varies by month. 
+Box Office Mojo was founded in 1999. When we look at their number of records per year, we soon realize that there is a jump in the number of records around the year the company was founded. For our purposes, we decide to use only records with a release date of 1999 or a later date. Notice that the number of movies released varies by month. 
 October-December have the most records, January-February have the least records.
 ![Box Office Mojo Records](/images/BoxOfficeMojo/actorproducer_count_vs_year+month.png)
 
