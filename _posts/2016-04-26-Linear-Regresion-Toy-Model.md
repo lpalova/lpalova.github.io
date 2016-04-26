@@ -16,8 +16,13 @@ Answering a question like this is not an easy task. Naturally, we would ask the 
 
 [Box Office Mojo](http://www.boxofficemojo.com/)
 is a great resource for movie industry data. The website is neatly organized, allowing one to extract different features about each movie, such as domestic total gross, production budget, release date, widest release theaters count, genre, runtime, rating of the movie, as well as information on the distributor, director, producer(s), actor(s), screenwriter(s), composer(s), cinematographer(s), etc. 
-Because we are interested in answering our question of interest, that is, how much will I earn on a movie's (domestic) total gross if I invest $1 in its production budget, 
-our dependent variable will be domestic total gross.
+Because our question of interest is ``How much will I earn on a movie's (domestic) total gross if I invest $1 in its production budget?``, our dependent variable is set to be the domestic total gross and our explanatory variable is
+production budget.
+Let's see how we perform.
+
+Box Office Mojo was founded in 1999. When we look at their number of records per year, we soon realize that there is a jump in the number of records around the year the company was founded. We decide to use only recordings with a release date of 1999 or a later year.
+
+
 
 
 
