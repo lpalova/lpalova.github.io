@@ -39,7 +39,7 @@ count of theaters (typically an expected high-performance movie will be released
 [movie rating](http://www.metacritic.com/),
 the predictive power increases.
 
-Let's forget about the R<sup>2</sup> value for a moment, and let's focus our attention on the model itself.
+Let's move away from the prediction power for a moment, and let's focus our attention on the model itself.
 The significant coefficients, that is, the linear coefficients for ``production budget``, ``actors score`` and ``producer score`` still represent the mean change in the response for one unit of change in the predictor while holding other predictors in the model constant. This said, our estimator is still the best linear unbiased estimator,
 and this type of information can be valuable.
 To conclude, we find that the mean change in the ``domestic total gross`` per $1 investment in the ``production budget`` is 
