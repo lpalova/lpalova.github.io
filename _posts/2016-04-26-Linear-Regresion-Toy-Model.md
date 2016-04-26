@@ -15,8 +15,12 @@ Answering a question like this is not an easy task. Naturally, we would ask the 
 (iii) What features do we include/omit in our analysis? Could we perform any better, and if so, how does the final model look like?
 
 [Box Office Mojo](http://www.boxofficemojo.com/)
-is a great resource of movie industry data. The website is neatly organized, allowing us to extract data, such as domestic total gross, production budget, release date, widest release theaters count, genre, runtime, rating of the movie, as well as information on the distributor, director, producer(s), actor(s), screenwriter(s), composer(s), cinematographer(s), etc. 
-Here I look at the effects of various features on the domestic total gross of a movie, with the goal to predict the domestic total gross using a linear regression. The prediction power of the algorithm is low, ...
+is a great resource for movie industry data. The website is neatly organized, allowing one to extract different features about each movie, such as domestic total gross, production budget, release date, widest release theaters count, genre, runtime, rating of the movie, as well as information on the distributor, director, producer(s), actor(s), screenwriter(s), composer(s), cinematographer(s), etc. 
+Because we are interested in answering our question of interest, that is, how much will I earn on a movie's (domestic) total gross if I invest $1 in its production budget, 
+our dependent variable will be domestic total gross.
+
+
+
 
 
 
