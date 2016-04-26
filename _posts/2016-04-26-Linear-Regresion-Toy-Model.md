@@ -41,13 +41,14 @@ the predictive power increases.
 
 Let's move away from the prediction power for a moment, and let's focus our attention on the model itself.
 The significant coefficients, that is, the linear coefficients for ``production budget``, ``actors score`` and ``producer score`` still represent the mean change in the response for one unit of change in the predictor while holding other predictors in the model constant. This said, our estimator is still the best linear unbiased estimator,
-and this type of information can be valuable.
+and this type of information is valuable.
 To conclude, we find that the mean change in the ``domestic total gross`` per $1 investment in the ``production budget`` is 
 about $0.8, per $1 of the producer score (higher score means producing more revenue for past movies) 
 is about $0.2, and per $1 of the actors score (looking only at the best performing actor per movie) 
 is about $0.1.
-[Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)
 
+[Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)
+[Presentation](https://docs.google.com/presentation/d/1GLkTnWRyj4v8bTs55frT6jBn3Vv_8z6fsjY_XuADVbY/edit#slide=id.g10f7417bd3_0_19)
 
 
 
