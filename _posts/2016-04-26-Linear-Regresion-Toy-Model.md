@@ -3,8 +3,6 @@ layout: post
 title: 
 ---
 
-*Work in progress*
-
 [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) is a simple tool for modelling the relationship 
 between a scalar dependent variable and one or more explanatory variables, where this relationship is expressed as
 a linear function of the explanatory variables. 
