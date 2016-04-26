@@ -33,7 +33,7 @@ This might seem a little worrisome, especially if we want to be sure how our $1 
 However, predicting a human-related behavior is a tough job in general. In the absence of any other information, we conclude that this prediction is as good as we can get.
 
 But wait, what about all the movie information on actors or producers? Afterall, I would love to see a movie with my favorite superhero (and I'm not listening to anyone's objections, sorry, no reviews yet). What about producer? Director? Movie quality should be related to the quality of those who produce it! 
-It turns out that even by scoring the producers and actors, and including their qualities into our model, our predictions don't improve significantly. We can get up to R<sup>2</sup>=0.45. Weird..
+It turns out that even by scoring the producers and actors, and including their qualities into the model, our predictions don't improve significantly. We can get up to R<sup>2</sup>=0.45. Weird..
 
 
 
