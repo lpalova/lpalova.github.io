@@ -47,7 +47,7 @@ about $0.8, per $1 of the producer score (higher score means producing more reve
 is about $0.2, and per $1 of the actors score (looking only at the best performing actor per movie) 
 is about $0.1.
 
-[Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)
+[Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
 [Presentation](https://docs.google.com/presentation/d/1GLkTnWRyj4v8bTs55frT6jBn3Vv_8z6fsjY_XuADVbY/edit#slide=id.g10f7417bd3_0_19)
 
 
