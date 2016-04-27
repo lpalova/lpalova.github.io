@@ -55,8 +55,6 @@ It's not clear a priori how to improve the prediction power, given the nature of
 without accounting for close to release or post-release features, like the number of opening theaters or pre-sale tickets, or movie reviews.
 
 [Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
-[Presentation](https://docs.google.com/presentation/d/1GLkTnWRyj4v8bTs55frT6jBn3Vv_8z6fsjY_XuADVbY/edit#slide=id.g10f7417bd3_0_19)
-
 
 
 
