@@ -24,14 +24,14 @@ October-December have the most records, January-February have the least records.
 
 We perform [ordinary least squares](https://en.wikipedia.org/wiki/Ordinary_least_squares) fit
 and find that domestic total gross is estimated based on the production budget with a prediction power measured by 
-R<sup>2</sup>=0.4.
+R-squared=0.4.
 [The interpretation](http://blog.minitab.com/blog/adventures-in-statistics/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit) 
 one might use is that our model explains about 40% of the variation in our data, leaving the rest 60% unexplained.
 This might seem a little worrisome, especially if we want to be sure how our $1 investment turns out.
 However, predicting a human-related behavior is a tough job in general. In the absence of any other information, we conclude that this prediction is as good as we can get.
 
 But wait, what about all the movie information on actors or producers? Afterall, I would love to see a movie with my favorite superhero (and I'm not listening to anyone's objections, sorry, no reviews yet). What about producer? Director? Movie quality should be related to the quality of those who produce it! 
-It turns out that even by scoring the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R<sup>2</sup> is about 0.45. 
+It turns out that even by scoring the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R-squared is about 0.45. 
 On the other hand, as soon as we allow to account for information that is more predictive in its nature, such as
 count of theaters (typically an expected high-performance movie will be released in more theaters) or 
 [movie rating](http://www.metacritic.com/),
