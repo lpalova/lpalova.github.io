@@ -9,7 +9,7 @@ a linear function of the explanatory variables.
 If the [model assumptions](http://www.statisticssolutions.com/assumptions-of-multiple-linear-regression/)
 are met, it can predict an increase or decrease in the dependent variable based on the changes in the explanatory variables; e.g., for each $1 that I invest into the production budget of my future movie, how much will I earn on the movie's total gross? 
 Answering a question like this is not an easy task. Naturally, we would ask the following questions: (i) What is the prediction power of our model? 
-(ii) Can we trust the model's linear coefficients?
+(ii) Can we trust the model's linear coefficient(s)?
 (iii) What features do we include/omit in our analysis? Could we perform any better, and if so, how does the final model look like?
 
 [Box Office Mojo](http://www.boxofficemojo.com/)
@@ -47,8 +47,7 @@ about $0.8, per $1 of the producer score (higher score means producing more reve
 is about $0.2, and per $1 of the actors score (looking only at the best performing actor per movie) 
 is about $0.1.
 To recap: 
-[the linear coefficients still estimate the trend while R-squared represents the scatter around the regression line]
-(http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-a-regression-model-with-low-r-squared-and-low-p-values).
+[the linear coefficients still estimate the trend while R-squared represents the scatter around the regression line](http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-a-regression-model-with-low-r-squared-and-low-p-values).
 It's not clear a priori how to improve the prediction power given the nature of movies data.
 
 [Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
