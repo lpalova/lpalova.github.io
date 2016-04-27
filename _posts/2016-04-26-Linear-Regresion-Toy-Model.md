@@ -49,7 +49,7 @@ is about $0.1.
 To recap: 
 [the linear coefficients still estimate the trend while R-squared represents the scatter around the regression line](http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-a-regression-model-with-low-r-squared-and-low-p-values).
 It's not clear a priori how to improve the prediction power, given the nature of movies data,
-without accounting for close-to release or post-release features like number of opening theaters or pre-sales tickets or movie reviews.
+without accounting for close-to release or post-release features, like the number of opening theaters or pre-sale tickets, or movie reviews.
 
 [Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
 [Presentation](https://docs.google.com/presentation/d/1GLkTnWRyj4v8bTs55frT6jBn3Vv_8z6fsjY_XuADVbY/edit#slide=id.g10f7417bd3_0_19)
