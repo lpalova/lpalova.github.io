@@ -35,12 +35,11 @@ the Box Office Mojo database.
 What about all the movie information on actors, producers, director, screenwriters, etc.? Afterall, one would assume that people like to go see a movie with their favorite actor(s) playing in it or a movie that has been produced by their favorite producer. Movie quality should be related to the quality of those who make it! 
 It turns out that even by scoring, for example,
 the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R-squared is about 0.45. 
-On the other hand, as soon as we start allowing to account for information that is more predictive in its nature, such as
+On the other hand, as soon as we account for information that is more predictive in its nature, such as
 count of theaters (typically an expected high-performance movie will be released in more theaters) or 
 [movie rating](http://www.metacritic.com/),
-the predictive power increases to values of R-squared of about 0.60.
-
-Let's move away from the prediction power for a moment, and let's focus our attention on the model itself.
+the predictive power increases.
+<!--Let's move away from the prediction power for a moment, and let's focus our attention on the model itself.
 The significant coefficients, the linear coefficients for ``production budget``, ``actors score`` and ``producer score``, still represent the mean change in the response for one unit of change in the predictor while holding other predictors in the model constant. This said, our estimator is still the best linear unbiased estimator (for the set of chosen features),
 and this type of information is valuable.
 We find that our best model's linear coeficients are about 0.8, 0.2 and 0.1 for the 
@@ -50,9 +49,9 @@ about $0.8, per $1 of the producer score (higher score means producing more reve
 is about $0.2, and per $1 of the actors score (looking only at the best performing actor per movie) 
 is about $0.1.
 To recap: 
-[the linear coefficients still estimate the trend while R-squared represents the scatter around the regression line](http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-a-regression-model-with-low-r-squared-and-low-p-values).
-It's not clear a priori how to improve the prediction power, given the nature of movies data,
-without accounting for close to release or post-release features, like the number of opening theaters or pre-sale tickets, or movie reviews.
+[the linear coefficients still estimate the trend while R-squared represents the scatter around the regression line](http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-a-regression-model-with-low-r-squared-and-low-p-values).-->
+To recap: It's not an easy task to improve the prediction power, given the nature of movies data,
+without accounting for close to release or post-release features, like the number of opening theaters, pre-sale tickets, or movie reviews.
 
 [Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
 
