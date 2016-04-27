@@ -30,7 +30,8 @@ one might use is that our model explains about 40% of the variation in our data,
 This might seem a little worrisome, especially if we want to be sure how our $1 investment turns out.
 However, predicting a human-related behavior is a tough job in general. In the absence of any other information, we conclude that this prediction is as good as we can get.
 
-Let's see what improvements we can make when we analyze more features from the Box Office Mojo database.
+Let's move one step forward and see what improvements we can make when we analyze more features from 
+the Box Office Mojo database.
 What about all the movie information on actors or producers? Afterall, one would assume that people like to go see a movie with their favorite actor(s) playing in it or a movie that has been produced by their favorite producer. Movie quality should be related to the quality of those who make it! 
 It turns out that even by scoring the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R-squared is about 0.45. 
 On the other hand, as soon as we start allowing to account for information that is more predictive in its nature, such as
