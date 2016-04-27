@@ -33,7 +33,8 @@ However, predicting a human-related behavior is a tough job in general. In the a
 Let's move one step forward and see what improvements we can make when we analyze more features from 
 the Box Office Mojo database.
 What about all the movie information on actors, producers, director, screenwriters, etc.? Afterall, one would assume that people like to go see a movie with their favorite actor(s) playing in it or a movie that has been produced by their favorite producer. Movie quality should be related to the quality of those who make it! 
-It turns out that even by scoring the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R-squared is about 0.45. 
+It turns out that even by scoring, for example,
+the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R-squared is about 0.45. 
 On the other hand, as soon as we start allowing to account for information that is more predictive in its nature, such as
 count of theaters (typically an expected high-performance movie will be released in more theaters) or 
 [movie rating](http://www.metacritic.com/),
