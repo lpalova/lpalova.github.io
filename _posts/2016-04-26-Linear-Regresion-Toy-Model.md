@@ -13,7 +13,7 @@ Answering a question like this is not an easy task. Naturally, we would ask: (i)
 (iii) What features do we include/omit in our analysis? Could we perform any better, and if so, how does the final model look like?
 
 [Box Office Mojo](http://www.boxofficemojo.com/)
-is a great resource for movie industry data. The website is neatly organized, allowing one to extract different features about each movie, such as domestic total gross, production budget, release date, widest release theaters count, genre, runtime, rating of the movie, as well as information on the distributor, director, producer(s), actor(s), screenwriter(s), composer(s), cinematographer(s), etc. 
+is a great resource for movie industry data. The website is neatly organized, allowing one to extract different features about movies, such as domestic total gross, production budget, release date, widest release theaters count, genre, runtime, rating of the movie, as well as information on the distributor, director, producer(s), actor(s), screenwriter(s), composer(s), cinematographer(s), etc. 
 Because our question of interest is ``How much will I earn on a movie's (domestic) total gross if I invest $1 in its production budget?``, our dependent variable is set to be the domestic total gross and our explanatory variable is
 production budget.
 Let's see how we perform.
@@ -28,13 +28,13 @@ R-squared=0.4.
 [The interpretation](http://blog.minitab.com/blog/adventures-in-statistics/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit) 
 one might use is that our model explains about 40% of the variation in our data, leaving the rest 60% unexplained.
 This might seem a little worrisome, especially if we want to be sure how our $1 investment turns out.
-However, predicting a human-related behavior is a tough job in general. In the absence of any other information, we conclude that this prediction is as good as we can get.
+However, predicting a human-related behavior is a tough job. In the absence of any other information, we conclude that this prediction is as good as we can get.
 
-Let's move one step forward and see what improvements we can make when we analyze more features from 
-the Box Office Mojo database.
-What about all the movie information on actors, producers, director, screenwriters, etc.? Afterall, one would assume that people like to go see a movie with their favorite actor(s) playing in it or a movie that has been produced by their favorite producer. Movie quality should be related to the quality of those who make it! 
-It turns out that even by scoring, for example,
-the producers and actors, and including their qualities into the model, our predictions don't improve significantly. The R-squared is about 0.45. 
+Let's move one step forward and include more features into our simple model. Can we think about the movie quality being related to 
+<!-- What about all the movie information on actors, producers, director, screenwriters, etc.? Afterall, one would assume that people like to go see a movie with their favorite actor(s) playing in it or a movie that has been produced by their favorite producer. Movie quality should be related to -->
+the players: actors, producers? 
+It turns out that by scoring producers and actors based on their former movies, using a simple metric that favors 
+former high gross revenues, we are able to improve our model's performance but not greatly. The R-squared increases to 0.45.
 On the other hand, as soon as we account for information that is more predictive in its nature, such as
 count of theaters (typically an expected high-performance movie will be released in more theaters) or 
 [movie rating](http://www.metacritic.com/),
