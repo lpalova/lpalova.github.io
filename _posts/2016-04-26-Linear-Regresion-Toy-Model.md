@@ -43,7 +43,7 @@ However, more sophisticated models are needed to
 [design a decision support system with practical utilities](http://arxiv.org/pdf/1506.05382.pdf).
 
 As an aside, we mention that as soon as we deviate from the early prediction nature of our algorithm and include features that are known closer to the movie release date or post-release features, like the number of opening theaters
-(typically an expected high-performance movie will be released in more theaters),
+(typically an expected high-performance movie will have a wider release),
 or [movie rating](http://www.metacritic.com/),
 the predictive power (naturally) increases.
 
