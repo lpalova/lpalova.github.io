@@ -47,9 +47,6 @@ As an aside, we mention that as soon as we deviate from the early prediction nat
 or [movie rating](http://www.metacritic.com/),
 the predictive power (naturally) increases.
 
-To recap: It's not an easy task to improve the prediction power, given the nature of movies data,
-without accounting for close to release or post-release features, like the number of opening theaters, pre-sale tickets, or movie reviews.
-
 [Source code - simple linear regression](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
 
 
