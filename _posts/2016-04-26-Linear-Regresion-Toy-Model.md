@@ -30,30 +30,27 @@ one might use is that our model explains about 40% of the variation in our data,
 This might seem a little worrisome, especially if we want to be sure how our $1 investment turns out.
 However, predicting a human-related behavior is a tough job. In the absence of any other information, we conclude that this prediction is as good as we can get.
 
-Let's move one step forward and include more features into our simple model. Can we think about the movie quality being related to 
-<!-- What about all the movie information on actors, producers, director, screenwriters, etc.? Afterall, one would assume that people like to go see a movie with their favorite actor(s) playing in it or a movie that has been produced by their favorite producer. Movie quality should be related to -->
-the players: actors, producers? 
+Let's move one step forward and include more features into our simple model. Can we think about the movie quality being related to the players: actors, producers? 
 It turns out that by scoring producers and actors based on their former movies, using a simple metric that favors 
 former high gross revenues, we are able to improve our model's performance but not greatly. The R-squared increases to 0.45.
-On the other hand, as soon as we account for information that is more predictive in its nature, such as
-count of theaters (typically an expected high-performance movie will be released in more theaters) or 
-[movie rating](http://www.metacritic.com/),
-the predictive power increases.
-<!--Let's move away from the prediction power for a moment, and let's focus our attention on the model itself.
-The significant coefficients, the linear coefficients for ``production budget``, ``actors score`` and ``producer score``, still represent the mean change in the response for one unit of change in the predictor while holding other predictors in the model constant. This said, our estimator is still the best linear unbiased estimator (for the set of chosen features),
-and this type of information is valuable.
-We find that our best model's linear coeficients are about 0.8, 0.2 and 0.1 for the 
-``production budget``, ``producer score`` and ``actor score``, resp. 
-Loosely speaking, the mean change in the ``domestic total gross`` per $1 investment in the ``production budget`` is 
-about $0.8, per $1 of the producer score (higher score means producing more revenue for past movies) 
-is about $0.2, and per $1 of the actors score (looking only at the best performing actor per movie) 
-is about $0.1.
-To recap: 
-[the linear coefficients still estimate the trend while R-squared represents the scatter around the regression line](http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-a-regression-model-with-low-r-squared-and-low-p-values).-->
+[The early predictions of movie success](http://link.springer.com/chapter/10.1007%2F978-3-319-16268-3_41) 
+include features such as *who* plays or contributes to the movie, *what* is the movie about and *when* it will be released. Our simple linear regression toy model captures 
+[the main trend](http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-a-regression-model-with-low-r-squared-and-low-p-values)
+of the
+[relations](http://blog.minitab.com/blog/adventures-in-statistics/how-to-interpret-regression-analysis-results-p-values-and-coefficients)
+of these predictors to the movie gross (higher rated producers/actors, production budget increase the movie's gross on average).
+However, more sophisticated models are needed to
+[design a decision support system with practical utilities](http://arxiv.org/pdf/1506.05382.pdf).
+
+As an aside, we mention that as soon as we deviate from the early prediction nature of our algorithm and include features that are known closer to the movie release date or post-release features, like the number of opening theaters
+(typically an expected high-performance movie will be released in more theaters),
+or [movie rating](http://www.metacritic.com/),
+the predictive power (naturally) increases.
+
 To recap: It's not an easy task to improve the prediction power, given the nature of movies data,
 without accounting for close to release or post-release features, like the number of opening theaters, pre-sale tickets, or movie reviews.
 
-[Source code](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
+[Source code - simple linear regression](https://github.com/lpalova/Box-Office-Mojo---Analysis/tree/master/source-files)    
 
 
 
