@@ -47,17 +47,8 @@ We notice a few peaks:
 [and wind events](http://www.srh.noaa.gov/oun/?n=events-20110614),
 [2012 warmest year in US](http://www.climatecentral.org/news/noaa-2012-was-warmest-and-second-most-extreme-year-on-record-15436).
 
-
-
-Although the number of storm events stays relatively unchanged, 
-we see much wider varriations 
-
-
-Storm categories are characterized by EVENT_TYPE feature in the NOAA datasets. 
-A closer look at the datasets reveals that many different EVENT_TYPEs are used, including descriptions such as .. vs. ...
-In order to categorize storms, we decide to bin the different events into eight 
-categories: Storm, Wind, ...
-By 
+Although the number of storm events stays relatively unchanged, we see a much wider varriations in average property damage
+(similarly crops damage, or number of injuries/deaths). 
 
 
 
