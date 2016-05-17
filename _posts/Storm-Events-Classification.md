@@ -26,28 +26,29 @@ end of a storm event), Latitude and Longitude, State, Number of Injuries and Dea
 Range and Azimuth (if applicable) and others.
 The data comes from the National Weather Service. [The National Weather service receives their information from a variety of sources: county, local, state and federal law enforcement and emergency management officials, skywarn spotters, NWS damage surveys, newspaper clipping services, the insurance industry and the general public, among others.](http://www.ncdc.noaa.gov/stormevents/faq.jsp)
 
-First, we investigate the event type. Event types vary from wind (such as 
-strong wind, thunderstorm wind) and storm (including blizzard, hail, rain) events, 
+First, we look at the event type. Event types vary from wind (such as 
+strong wind, thunderstorm wind) and storm (including blizzard, hail, rain), 
 tornadoes (including waterspout), hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
 tsunami (waves) or winter weather (cold, avalanche, snow).
 We categorize all storm events into the eight categories, and apply an algorithm
 to test accuracy of our chosen categorization scheme.
-We find an average 83% accuracy with a [random forest regressor]().
+We find an average 83% accuracy with a [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
 We expect overlaps among the different categories (such as storm and wind, or 
 tsunami and flood), however, 
 a categorization like this condenses vast amount of different labels
- into a more organized labeling scheme.
+ into more organized labels.
 
 Let's explore the past twenty years of the dataset. 
 In the following, we plot the average number of events of a given type across the US
 as a function of year.
-![Count_vs_year](/images/Storms/stormcountyear.png)
+![Count_property_vs_year](/images/Storms/stormcount_propertyyear.png)
 We notice a few peaks: 2005 is a well known [Atlantic Hurricane Season](),
 ....
 
 We also plot the average property damage (adjusted for inflation) 
 per event type across the US as a function of year.
-![Property_vs_year](/images/Storms/stormpropertyyear.png)
+
+
 Although the number of storm events stays relatively unchanged, 
 we see much wider varriations 
 
