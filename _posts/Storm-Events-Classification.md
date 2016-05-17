@@ -38,15 +38,15 @@ tsunami and flood), however,
 a categorization like this condenses vast amount of different labels
  into a more organized labeling scheme.
 
-Let's explore the past twenty years of the dataset. 
-In the following, we plot the average number of events of a given type across the US
-as a function of year.
+We look at the past twenty years of the dataset. The following plot shows the average number of events per year of a given type across the US (left), as well the average property damage (inflation adjusted) per year 
+(center and right) as a function of year. 
 ![Count_property_vs_year](/images/Storms/stormcount_propertyyear.png)
-We notice a few peaks: 2005 is a well known [Atlantic Hurricane Season](),
-....
+We notice a few peaks: 
+[2005 Atlantic Hurricane Season](https://en.wikipedia.org/wiki/2005_Atlantic_hurricane_season),
+[2008 several](http://www.weather.gov/lot/2011blizzard) [storm](http://www.spc.noaa.gov/exper/archive/event.php?date=20110427) 
+[and wind events](http://www.srh.noaa.gov/oun/?n=events-20110614),
+[2012 warmest year in US](http://www.climatecentral.org/news/noaa-2012-was-warmest-and-second-most-extreme-year-on-record-15436).
 
-We also plot the average property damage (adjusted for inflation) 
-per event type across the US as a function of year.
 
 
 Although the number of storm events stays relatively unchanged, 
