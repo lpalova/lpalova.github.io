@@ -29,14 +29,14 @@ The data comes from the National Weather Service. [The National Weather service 
 First, we look at the event type. Event types vary from wind (such as 
 strong wind, thunderstorm wind) and storm (including blizzard, hail, rain), 
 tornadoes (including waterspout), hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
-tsunami (waves) or winter weather (cold, avalanche, snow).
+tsunami (tide) or winter weather (cold, avalanche, snow).
 We categorize all storm events into the eight categories, and apply an algorithm
 to test accuracy of our chosen categorization scheme.
 We find an average 83% accuracy with a [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
 We expect overlaps among the different categories (such as storm and wind, or 
 tsunami and flood), however, 
 a categorization like this condenses vast amount of different labels
- into more organized labels.
+ into a more organized labeling scheme.
 
 Let's explore the past twenty years of the dataset. 
 In the following, we plot the average number of events of a given type across the US
