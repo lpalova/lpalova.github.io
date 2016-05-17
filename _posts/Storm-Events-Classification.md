@@ -34,10 +34,4 @@ By
 
 
 
-Note:
-
-NOAA has publicly available [datasets]()
-on storm events.
-The data is collected from various sources, including ...
-
 ![86th street exits](/images/MTA/exits/heatmap_72 ST, 123.png)
