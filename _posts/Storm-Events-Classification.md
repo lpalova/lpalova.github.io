@@ -21,6 +21,10 @@ requires calculations of two components of risk:
 the magnitude of the potential loss, and the probability that the loss will occur.
 Here we focus our attention on the former and analyze 
 [NOAA's storm events database](http://www.ncdc.noaa.gov/stormevents/ftp.jsp).
+The database consists of individual storm observations described by features including Event Type, Timestamp (beginning and
+end of a storm event), Latitude and Longitude, State, Number of Injuries and Deaths, Property and Crops Damage,
+Range and Azimuth (if applicable) and others.
+The data comes from the National Weather Service. [The National Weather service receives their information from a variety of sources, which include but are not limited to: county, state and federal emergency management officials, local law enforcement officials, skywarn spotters, NWS damage surveys, newspaper clipping services, the insurance industry and the general public, among others.](http://www.ncdc.noaa.gov/stormevents/faq.jsp).
 
 Storm categories are characterized by EVENT_TYPE feature in the NOAA datasets. 
 A closer look at the datasets reveals that many different EVENT_TYPEs are used, including descriptions such as .. vs. ...
