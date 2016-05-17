@@ -54,7 +54,8 @@ or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane
 lead to large insured and uninsured property loss and number of injuries/deaths
 compared to other storm events (even within the same type).
 
-Here we try to predict the amount of damage based on several storm-related features, including (beginning) latitude,
+Here we try to predict the amount of property damage based on several storm-related features, 
+including (beginning) latitude,
 longitude of the event, event type, season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
 from high property damage events (say, nonzero property damage events).
