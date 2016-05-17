@@ -58,9 +58,9 @@ Here we try to predict the amount of damage based on several storm-related featu
 longitude of the event, event type, season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
 from high property damage events (say, nonzero property damage events).
-Again, by employing a random forest classifier with appropriate probability threshold value we are able to 
-get a high precision on nonzero damage. Further, by running a continuous regression on the labeled nonzero damage events,
-our predictions lead to Rsquared of about 0.22.
+Again, by employing a random forest algorithm with an adjusted probability threshold value we are able to 
+classify the nonzero damage events with a high precision rate. Furthermore, a continuous regression on the labeled nonzero damage events leads to Rsquared of about 0.22.
+
 
 
 
