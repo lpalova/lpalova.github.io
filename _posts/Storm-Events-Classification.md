@@ -16,6 +16,10 @@ Typically, the input consists of an event generation and exposure data.
 Physical damage is then estimated for each affected exposure.
 Insured loss is evaluated based on policy conditions and the damage estimation.
 
+In general, [quantitative risk assessment](https://en.wikipedia.org/wiki/Risk_assessment)
+requires calculations of two components of risk: 
+the magnitude of the potential loss, and the probability that the loss will occur.
+
 
 
 Currently, several risk '..' software packages exist that 
