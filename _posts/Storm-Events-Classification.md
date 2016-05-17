@@ -26,7 +26,7 @@ end of a storm event), Latitude and Longitude, State, Number of Injuries and Dea
 Range and Azimuth (if applicable) and others.
 The data comes from the National Weather Service. [The National Weather service receives their information from a variety of sources: county, local, state and federal law enforcement and emergency management officials, skywarn spotters, NWS damage surveys, newspaper clipping services, the insurance industry and the general public, among others.](http://www.ncdc.noaa.gov/stormevents/faq.jsp)
 
-First, we investigate the event type. Event types vary from wind (such as 
+First, we look at the event type. Event types vary from wind (such as 
 strong wind, thunderstorm wind) and storm (including blizzard, hail, rain) events, 
 tornadoes (including waterspout), hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
 tsunami (waves) or winter weather (cold, avalanche, snow).
