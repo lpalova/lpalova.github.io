@@ -11,7 +11,7 @@ title:
 
 Predicting damages or injures caused by a severe event is a key part of [risk modeling software](https://en.wikipedia.org/wiki/Catastrophe_modeling).
 The [software](https://en.wikipedia.org/wiki/HAZUS) 
-calculates [financial impacts of catastrophes before they occur](http://www.air-worldwide.com/Models/About-Catastrophe-Modeling/).
+[calculates](http://www.oasislmf.org/) [financial impacts of catastrophes before they occur](http://www.air-worldwide.com/Models/About-Catastrophe-Modeling/).
 Typically, the input consists of an event generation and exposure data. 
 Physical damage is then estimated for each affected exposure.
 Insured loss is evaluated based on policy conditions and the damage estimation.
@@ -19,13 +19,9 @@ Insured loss is evaluated based on policy conditions and the damage estimation.
 In general, [quantitative risk assessment](https://en.wikipedia.org/wiki/Risk_assessment)
 requires calculations of two components of risk: 
 the magnitude of the potential loss, and the probability that the loss will occur.
+Here we will focus our attention on the former, and analyze 
+[NOAA's storm events database](http://www.ncdc.noaa.gov/stormevents/ftp.jsp).
 
-
-
-Currently, several risk '..' software packages exist that 
-predict probability of a storm event as well as damages caused by such an event.
-Weather forecast ..
-link to risk analysis wiki
 Our goal here is to run a simple analysis on the publicly available [datasets]
 of storm events and predict property damage and injuries caused by a 
 given storm type if additional information is known, such as state,
