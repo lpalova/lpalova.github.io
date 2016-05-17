@@ -52,12 +52,16 @@ Although the number of storm events stays relatively unchanged, we see a much wi
 Catastrophic events such as [2005 Katrina](https://en.wikipedia.org/wiki/Hurricane_Katrina)
 or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane_season)
 lead to large insured and uninsured property loss and number of injuries/deaths
-compared to other storm events (even within the same category).
+compared to other storm events (even within the same type).
 
 Here we try to predict the amount of damage based on several storm-related features, including (beginning) latitude,
-longitude of the event, event category, season, among others.
+longitude of the event, event type, season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
 from high property damage events (say, nonzero property damage events).
+Again, by employing a random forest classifier with appropriate probability threshold value we are able to 
+get a high precision on nonzero damage. Further, by running a continuous regression on the labeled nonzero damage events,
+our predictions lead to Rsquared of about 0.22.
+
 
 
 
