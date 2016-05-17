@@ -51,8 +51,13 @@ Although the number of storm events stays relatively unchanged, we see a much wi
 (similarly crops damage, or number of injuries/deaths). 
 Catastrophic events such as [2005 Katrina](https://en.wikipedia.org/wiki/Hurricane_Katrina)
 or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane_season)
-lead to a large insured and uninsured property loss and number of injuries/deaths
+lead to large insured and uninsured property loss and number of injuries/deaths
 compared to other storm events (even within the same category).
+
+Here we try to predict the amount of damage based on several storm-related features, including (beginning) latitude,
+longitude of the event, event category, season, among others.
+The most difficult task is to separate low property damage events (say, zero property damage events) 
+from high property damage events (say, nonzero property damage events).
 
 
 
