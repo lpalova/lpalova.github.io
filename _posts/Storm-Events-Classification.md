@@ -38,7 +38,7 @@ tsunami and flood), however,
 a categorization like this condenses vast amount of different labels
  into a more organized labeling scheme.
 
-We look at the past twenty years of the dataset. The following plot shows the average number of events per year of a given type across the US (left), as well the average property damage (inflation adjusted) per year 
+Let's explore the past twenty years of the dataset. The following plot shows the average number of events per year of a given type across the US (left), as well the average property damage (inflation adjusted) per year 
 (center and right) as a function of year. 
 ![Count_property_vs_year](/images/Storms/stormcount_propertyyear.png)
 We notice a few peaks: 
