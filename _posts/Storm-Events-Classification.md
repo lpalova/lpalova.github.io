@@ -36,7 +36,7 @@ We find an average 83% accuracy with a [random forest classifier](http://scikit-
 We expect overlaps among the different categories (such as storm and wind, or 
 tsunami and flood), however, 
 a categorization like this condenses vast amount of different labels
- into a more organized labeling scheme.
+ into more organized labels.
 
 Let's explore the past twenty years of the dataset. 
 In the following, we plot the average number of events of a given type across the US
