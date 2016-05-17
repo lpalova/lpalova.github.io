@@ -61,6 +61,10 @@ The most difficult task is to separate low property damage events (say, zero pro
 from high property damage events (say, nonzero property damage events).
 Again, by employing a random forest algorithm with an adjusted probability threshold value we are able to 
 classify the nonzero damage events with a high precision rate. Furthermore, a continuous regression on the labeled nonzero damage events leads to Rsquared of about 0.22.
+<!-- Learning curve-->
+
+
+
 
 
 
