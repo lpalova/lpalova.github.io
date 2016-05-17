@@ -27,7 +27,7 @@ Range and Azimuth (if applicable) and others.
 The data comes from the National Weather Service. [The National Weather service receives their information from a variety of sources: county, local, state and federal law enforcement and emergency management officials, skywarn spotters, NWS damage surveys, newspaper clipping services, the insurance industry and the general public, among others.](http://www.ncdc.noaa.gov/stormevents/faq.jsp)
 
 First, we look at the event type. Event types vary from wind (such as 
-strong wind, thunderstorm wind) and storm (including blizzard, hail, rain) events, 
+strong wind, thunderstorm wind) and storm (including blizzard, hail, rain), 
 tornadoes (including waterspout), hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
 tsunami (waves) or winter weather (cold, avalanche, snow).
 We categorize all storm events into the eight categories, and apply an algorithm
