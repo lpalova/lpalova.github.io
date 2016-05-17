@@ -41,7 +41,7 @@ a categorization like this condenses vast amount of different labels
 Let's explore the past twenty years of the dataset. 
 In the following, we plot the average number of events of a given type across the US
 as a function of year.
-![Count_vs_year](/images/Storms/stormcount_propertyyear.png)
+![Count_property_vs_year](/images/Storms/stormcount_propertyyear.png)
 We notice a few peaks: 2005 is a well known [Atlantic Hurricane Season](),
 ....
 
