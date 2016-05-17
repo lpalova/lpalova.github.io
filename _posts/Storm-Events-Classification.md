@@ -32,7 +32,7 @@ tornadoes (including waterspout), hurricanes (including tropical storms and depr
 tsunami (waves) or winter weather (cold, avalanche, snow).
 We categorize all storm events into the eight categories, and apply an algorithm
 to test accuracy of our chosen categorization scheme.
-We find an average 83% accuracy with a [random forest regressor]().
+We find an average 83% accuracy with a [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
 We expect overlaps among the different categories (such as storm and wind, or 
 tsunami and flood), however, 
 a categorization like this condenses vast amount of different labels
