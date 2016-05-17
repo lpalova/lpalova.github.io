@@ -54,14 +54,22 @@ or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane
 lead to large insured and uninsured property loss and number of injuries/deaths
 compared to other storm events (even within the same type).
 
-Here we try to predict the amount of property damage based on several storm-related features, 
+Here we try to predict the amount of property damage based on a few storm-related features, 
 including (beginning) latitude,
 longitude of the event, event type, season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
 from high property damage events (say, nonzero property damage events).
+We find that the two groups are present with an almost equal weight in our sample storm dataset.
 Again, by employing a random forest algorithm with an adjusted probability threshold value we are able to 
 classify the nonzero damage events with a high precision rate. Furthermore, a continuous regression on the labeled nonzero damage events leads to Rsquared of about 0.22.
 <!-- Learning curve-->
+We notice that a similar analysis on the number of injuries or deaths is a fundamentaly more difficult task to accomplish,
+mostly because of very unbalanced data; 
+the majority of reported events results in no injuries/deaths, with a few outsiders representing catastrophic events.
+
+
+
+
 
 
 
