@@ -67,7 +67,9 @@ We notice that a similar analysis on the number of injuries or deaths is a funda
 mostly because of very unbalanced data; 
 the majority of reported events results in no injuries/deaths, with a few outsiders representing catastrophic events.
 
-Lastly, 
+<!-- Lastly, app for simple predictor-->
+<!-- app prediction alg. for damages-->
+
 
 
 
