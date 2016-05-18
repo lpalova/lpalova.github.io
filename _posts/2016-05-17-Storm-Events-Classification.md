@@ -17,7 +17,7 @@ requires calculations of two components of risk:
 the magnitude of the potential loss, and the probability that the loss will occur.
 Here we focus our attention on the former and analyze 
 [NOAA's storm events database](http://www.ncdc.noaa.gov/stormevents/ftp.jsp).
-The database consists of individual storm observations described by features including event type, timestamp (beginning and
+The database consists of individual storm observations described by features, including event type, timestamp (beginning and
 end of a storm event), latitude and longitude, state, number of injuries and deaths, property and crops damage,
 range and azimuth (if applicable) and others.
 The data comes from the National Weather Service. [The National Weather service receives their information from a variety of sources: county, local, state and federal law enforcement and emergency management officials, skywarn spotters, NWS damage surveys, newspaper clipping services, the insurance industry and the general public, among others.](http://www.ncdc.noaa.gov/stormevents/faq.jsp)
@@ -52,7 +52,7 @@ or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane
 lead to large insured and uninsured property loss and number of injuries/deaths
 compared to other storm events (even within the same type).
 
-Here we try to predict the amount of property damage based on a few storm-related features, 
+Here we try to predict the amount of property damage based on a few storm-related features,
 including (beginning) latitude,
 longitude of the event, event type, season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
