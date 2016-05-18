@@ -24,7 +24,8 @@ The data comes from the National Weather Service. [The National Weather service 
 
 First, we look at the event type. Event types vary from wind (such as 
 strong wind, thunderstorm wind) and storm (including blizzard, hail, rain), 
-tornadoes (including waterspout), hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
+tornadoes (including [waterspout](https://en.wikipedia.org/wiki/Waterspout)),
+hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
 tsunami (tide) or winter weather (cold, avalanche, snow).
 We categorize all storm events into the eight categories, and apply an algorithm
 to test accuracy of our chosen categorization scheme.
