@@ -5,10 +5,6 @@ title:
 
 *Work in progress*
 
-## Storm Events Classification
-
-<!-- App simple predictor -->
-
 Predicting damages or injures caused by a severe event is a key part of [risk modeling software](https://en.wikipedia.org/wiki/Catastrophe_modeling).
 The [software](https://en.wikipedia.org/wiki/HAZUS) 
 [calculates](http://www.oasislmf.org/) [(financial) impacts of catastrophes before they occur](http://www.air-worldwide.com/Models/About-Catastrophe-Modeling/).
