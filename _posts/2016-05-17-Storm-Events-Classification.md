@@ -54,7 +54,7 @@ compared to other storm events (even within the same type).
 
 Here we try to predict the amount of property damage based on a few storm-related features,
 including (beginning) latitude,
-longitude of the event, event type, season, among others.
+longitude of the event, event type and season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
 from high property damage events (say, nonzero property damage events).
 We find that the two groups are present with an almost equal weight in our sample storm dataset.
