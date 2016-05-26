@@ -57,7 +57,7 @@ including (beginning) latitude,
 longitude of the event, event type and season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
 from high property damage events (say, nonzero property damage events).
-I find that the two groups are present with an almost equal weight in the sample storm dataset.
+I find that the two groups are present with an almost equal weight in the NOAA's storm event dataset.
 Again, by employing a random forest algorithm with an adjusted probability threshold value I  
 classify the nonzero damage events with a high precision rate. Furthermore, a continuous regression on the labeled nonzero propery damage events leads to Rsquared of about 0.22.
 <!-- Learning curve-->
