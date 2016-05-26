@@ -60,7 +60,7 @@ from high property damage events (say, nonzero property damage events).
 I find that the two groups are present with an almost equal weight in the NOAA's storm event dataset.
 Again, by employing a random forest algorithm with an adjusted probability threshold value I classify the nonzero damage events with a high precision rate. Furthermore, a continuous regression on the labeled nonzero propery damage events leads to the Rsquared score of about 0.22.
 <!-- Learning curve-->
-Notice that a similar analysis on the number of injuries or deaths is a fundamentaly more difficult task to accomplish,
+Notice that a similar analysis on the number of injuries or deaths is a fundamentaly more difficult to accomplish,
 mostly because of very unbalanced data; 
 the majority of reported events results in no injuries/deaths, with a few outsiders representing catastrophic events.
 
