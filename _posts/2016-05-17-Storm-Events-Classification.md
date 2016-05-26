@@ -30,7 +30,7 @@ tsunami (tide) or winter weather (cold, avalanche, snow).
 I categorize all storm events into the eight categories, and apply an algorithm
 to test accuracy of the chosen categorization scheme.
 I find an average 83% accuracy with a [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
-We expect overlaps among the different categories (such as storm and wind, or 
+ There are overlaps among the different categories (such as storm and wind, or 
 tsunami and flood), however, 
 a categorization like this condenses vast amount of different labels
  into a more organized labeling scheme.
