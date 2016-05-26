@@ -47,8 +47,8 @@ Notice a few peaks:
 
 Although the number of storm events stays relatively unchanged, there are much wider varriations in average property damage
 (similarly crops damage, or number of injuries/deaths) as a function of time. 
-Catastrophic events such as [2005 Katrina](https://en.wikipedia.org/wiki/Hurricane_Katrina)
-or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane_season)
+Catastrophic events, such as [2005 Katrina](https://en.wikipedia.org/wiki/Hurricane_Katrina)
+or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane_season),
 lead to large insured and uninsured property loss and number of injuries/deaths
 compared to other storm events (even within the same type).
 
