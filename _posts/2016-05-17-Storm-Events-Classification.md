@@ -50,7 +50,7 @@ Although the number of storm events stays relatively unchanged, there are much w
 Catastrophic events, such as [2005 Katrina](https://en.wikipedia.org/wiki/Hurricane_Katrina)
 or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane_season),
 lead to large insured and uninsured property loss and number of injuries/deaths
-compared to other storm events (even within the same type).
+compared to other storm events even within the same event type.
 
 Here we try to predict the amount of property damage based on a few storm-related features,
 including (beginning) latitude,
