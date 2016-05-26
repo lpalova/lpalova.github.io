@@ -39,7 +39,7 @@ Let's explore the past twenty years of the dataset. The following plot shows the
 (center and right) as a function of year. 
 <!-- ![Count_property_vs_year](/images/Storms/stormcount_propertyyear.png =250x)-->
 <img src="/images/Storms/stormcount_propertyyear.png" width="3500" height="250" />   
-We notice a few peaks: 
+Notice a few peaks: 
 [2005 Atlantic Hurricane Season](https://en.wikipedia.org/wiki/2005_Atlantic_hurricane_season),
 [2008 several](http://www.weather.gov/lot/2011blizzard) [storm](http://www.spc.noaa.gov/exper/archive/event.php?date=20110427) 
 [and wind events](http://www.srh.noaa.gov/oun/?n=events-20110614),
