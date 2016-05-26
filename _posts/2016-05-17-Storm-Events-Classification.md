@@ -67,9 +67,8 @@ the majority of reported events results in no injuries/deaths, with a few outsid
 Lastly, I created a 
 [simple predictor app](http://54.173.233.196/)
 that predicts the amount of damage to be the median annual damage per state per event type 
-based on events between years 1996 and 2012.
-<!-- Lastly, app for simple predictor--
-<!-- app prediction alg. for damages-->
+based on events between years 1996 and 2012.   
+[Slide deck](https://docs.google.com/presentation/d/1uSIFORCHXLeSqNanSpRr9VIMAkclPoNNYD00efeqypg/edit#slide=id.g10f7417bd3_0_19) and [source code](https://github.com/lpalova/Storm-Events-Classification).
 
 
 
