@@ -45,7 +45,7 @@ Notice a few peaks:
 [and wind events](http://www.srh.noaa.gov/oun/?n=events-20110614),
 [2012 warmest year in US](http://www.climatecentral.org/news/noaa-2012-was-warmest-and-second-most-extreme-year-on-record-15436).
 
-Although the number of storm events stays relatively unchanged, we see a much wider varriations in average property damage
+Although the number of storm events stays relatively unchanged, there are much wider varriations in average property damage
 (similarly crops damage, or number of injuries/deaths). 
 Catastrophic events such as [2005 Katrina](https://en.wikipedia.org/wiki/Hurricane_Katrina)
 or [2008 Hurricane season](https://en.wikipedia.org/wiki/2008_Atlantic_hurricane_season)
