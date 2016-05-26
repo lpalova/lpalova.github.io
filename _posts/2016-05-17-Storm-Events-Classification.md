@@ -15,21 +15,21 @@ Insured loss is evaluated based on policy conditions and the damage estimation.
 In general, [quantitative risk assessment](https://en.wikipedia.org/wiki/Risk_assessment)
 requires calculations of two components of risk: 
 the magnitude of the potential loss, and the probability that the loss will occur.
-Here we focus our attention on the former and analyze 
+Here I focus my attention on the former and analyze 
 [NOAA's storm events database](http://www.ncdc.noaa.gov/stormevents/ftp.jsp).
 The database consists of individual storm observations described by features, including event type, timestamp (beginning and
 end of a storm event), latitude and longitude, state, number of injuries and deaths, property and crops damage,
 range and azimuth (if applicable) and others.
 The data comes from the National Weather Service. [The National Weather service receives their information from a variety of sources: county, local, state and federal law enforcement and emergency management officials, skywarn spotters, NWS damage surveys, newspaper clipping services, the insurance industry and the general public, among others.](http://www.ncdc.noaa.gov/stormevents/faq.jsp)
 
-First, we look at the event type. Event types vary from wind (such as 
+First, I look at the event type. Event types vary from wind (such as 
 strong wind, thunderstorm wind) and storm (including blizzard, hail, rain), 
 tornadoes (including [waterspout](https://en.wikipedia.org/wiki/Waterspout)),
 hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
 tsunami (tide) or winter weather (cold, avalanche, snow).
-We categorize all storm events into the eight categories, and apply an algorithm
-to test accuracy of our chosen categorization scheme.
-We find an average 83% accuracy with a [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
+I categorize all storm events into the eight categories, and apply an algorithm
+to test accuracy of the chosen categorization scheme.
+I find an average 83% accuracy with a [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
 We expect overlaps among the different categories (such as storm and wind, or 
 tsunami and flood), however, 
 a categorization like this condenses vast amount of different labels
@@ -57,15 +57,15 @@ including (beginning) latitude,
 longitude of the event, event type and season, among others.
 The most difficult task is to separate low property damage events (say, zero property damage events) 
 from high property damage events (say, nonzero property damage events).
-We find that the two groups are present with an almost equal weight in our sample storm dataset.
-Again, by employing a random forest algorithm with an adjusted probability threshold value we are able to 
+I find that the two groups are present with an almost equal weight in the sample storm dataset.
+Again, by employing a random forest algorithm with an adjusted probability threshold value I  
 classify the nonzero damage events with a high precision rate. Furthermore, a continuous regression on the labeled nonzero propery damage events leads to Rsquared of about 0.22.
 <!-- Learning curve-->
-We notice that a similar analysis on the number of injuries or deaths is a fundamentaly more difficult task to accomplish,
+Notice that a similar analysis on the number of injuries or deaths is a fundamentaly more difficult task to accomplish,
 mostly because of very unbalanced data; 
 the majority of reported events results in no injuries/deaths, with a few outsiders representing catastrophic events.
 
-Lastly, we created a 
+Lastly, I created a 
 [simple predictor app](http://54.173.233.196/)
 that predicts the amount of damage to be the median annual damage per state per event type 
 based on events between years 1996 and 2012.
