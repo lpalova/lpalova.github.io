@@ -36,7 +36,7 @@ a categorization like this condenses vast amount of different labels
 Let's explore the past twenty years of the dataset. The following plot shows average annual number of events of a given event type across the US (left), as well the average annual property damage (inflation adjusted) 
 (center and right) as a function of the year. 
 <!-- ![Count_property_vs_year](/images/Storms/stormcount_propertyyear.png =250x)-->
-<img src="/images/Storms/stormcount_propertyyear.png" width="1000" height="250" />   
+<img src="/images/Storms/stormcount_propertyyear.png" width="1000" height="200" />   
 Notice a few peaks: 
 [2005 Atlantic Hurricane Season](https://en.wikipedia.org/wiki/2005_Atlantic_hurricane_season),
 [2008 several](http://www.weather.gov/lot/2011blizzard) [storm](http://www.spc.noaa.gov/exper/archive/event.php?date=20110427) 
