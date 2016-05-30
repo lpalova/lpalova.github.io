@@ -62,6 +62,7 @@ Notice that a similar analysis on the number of injuries or deaths is fundamenta
 mostly because of very unbalanced data; 
 the majority of reported events results in no injuries/deaths, with a few outsiders representing catastrophic events.
 
+<img src="/images/Storms/simple_predictor_app.png" width="350" height="250" />
 Lastly, I created a 
 [simple predictor app](http://54.173.233.196/)
 that predicts the amount of damage to be the median annual damage per state per event type 
