@@ -63,7 +63,7 @@ mostly because of very unbalanced data;
 the majority of reported events results in no injuries/deaths, with a few outsiders representing catastrophic events.
 
 Lastly, I created a 
-[simple predictor app](http://54.173.233.196/)
+[simple predictor app](http://ec2-54-173-233-196.compute-1.amazonaws.com/map_predictor/)
 that predicts the amount of damage to be the median annual damage per state per event type 
 based on events between years 1996 and 2012.   
 <img src="/images/Storms/simple_predictor_app.png" width="450" height="250" />
