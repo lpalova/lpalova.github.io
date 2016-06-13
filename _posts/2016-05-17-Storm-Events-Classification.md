@@ -20,12 +20,12 @@ end of a storm event), latitude and longitude, state, number of injuries and dea
 range and azimuth (if applicable) and others.
 The data comes from the National Weather Service. [The National Weather service receives their information from a variety of sources: county, local, state and federal law enforcement and emergency management officials, skywarn spotters, NWS damage surveys, newspaper clipping services, the insurance industry and the general public, among others.](http://www.ncdc.noaa.gov/stormevents/faq.jsp)
 
-First, I look at the event type. Event types vary from wind (such as 
+Event types vary from wind (such as 
 strong wind, thunderstorm wind) and storm (including blizzard, hail, rain), 
 tornadoes (including [waterspout](https://en.wikipedia.org/wiki/Waterspout)),
 hurricanes (including tropical storms and depressions), floods (and landslides), to events such as fires (heat), 
 tsunami (tide) or winter weather (cold, avalanche, snow).
-I categorize all storm events into the eight categories, and apply an algorithm
+Here I categorize all storm events into the eight categories, and apply an algorithm
 to test accuracy of the chosen categorization scheme.
 I find an average 83% accuracy with a [random forest classifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html).
  There are overlaps among the different categories (such as storm and wind, or 
