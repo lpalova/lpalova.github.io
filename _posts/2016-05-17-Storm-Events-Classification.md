@@ -66,7 +66,7 @@ I created a
 [simple predictor app](http://ec2-54-173-233-196.compute-1.amazonaws.com/map_predictor/)
 that predicts the amount of damage to be the median annual damage per state per event type 
 based on events between years 1996 and 2012. This visualization tool allows us to compare the amount of reported damage
-across states due to the eight different event types. Feel free to try it out!
+across states due to the eight different event types. Feel free to [try it out]((http://ec2-54-173-233-196.compute-1.amazonaws.com/map_predictor/))!
 <img src="/images/Storms/simple_predictor_app.png" width="450" height="250" />
 
 [Slide deck](https://docs.google.com/presentation/d/1uSIFORCHXLeSqNanSpRr9VIMAkclPoNNYD00efeqypg/edit#slide=id.g10f7417bd3_0_19) and [source code](https://github.com/lpalova/Storm-Events-Classification).
