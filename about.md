@@ -17,9 +17,8 @@ I am fluent in R, Python and familiar with Java, Git/Github, Unix commands, Shin
 I have a passion for the field of education. I have been teaching physics, chemistry and math classes and worked with talented high school students since 2001. I taught undergraduate math, financial math and statistics at [NJIT](http://www.njit.edu/), undergraduate physics at [Rutgers](http://www.rutgers.edu/), and I have experience teaching high school calculus, physics and chemistry.
 <!--I have full responsibility for managing and running my classes. I am in charge of creating syllabi, exam questions and teaching materials, grading, and working with classroom presentation equipment.-->
 
-### More Information
-I am a self-starter, experienced researcher and data analyst. I don't have much free time, but if I had some, I would spend it playing volleyball and canoeing/kayaking. 
-
 ### Contact me
 
 [lucia.palova@gmail.com](mailto:email@domain.com)
+[linked.in](https://www.linkedin.com/in/luciapalova)
+[Resume]
