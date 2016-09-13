@@ -8,7 +8,7 @@ I am a trained physicist with a Ph.D. from [Rutgers University](http://www.physi
 
 I am well versed in statistical and data manipulation methods. Recently, I got certified in data science specialization by John Hopkins University on [Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/LL4BR8M6KAGX), and completed a data science bootcamp at [Metis](http://www.thisismetis.com/). I am proficient in Python, R and SQL. Samples of my work are available on [GitHub](https://github.com/lpalova).
 
-I am looking for job opportunities in data science or data analysis. I am an independent thinker and a quick learner. Areas of my interests include technology, education, energy, healthcare and more.
+I am looking for job opportunities in data science or data analysis. I am an independent thinker and a quick learner, can get stuff done. Areas of my interests include technology, healthcare, education.
 
 
 ### Contact me
