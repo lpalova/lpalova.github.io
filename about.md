@@ -21,4 +21,4 @@ I have a passion for the field of education. I have been teaching physics, chemi
 
 [lucia.palova@gmail.com](mailto:email@domain.com)
 [linked.in](https://www.linkedin.com/in/luciapalova)
-[Resume]
+[Resume](/)
