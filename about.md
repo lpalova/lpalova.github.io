@@ -4,7 +4,7 @@ title: My Story
 permalink: /about/
 ---
 
-I am a trained research physicist with a Ph.D. (2010) from Rutgers. I worked in computational and theoretical physics. 
+I am a trained research physicist with a Ph.D. from Rutgers. I worked in computational and theoretical physics. 
 As a graduate student at Rutgers and a postdoctoral researcher at Columbia University, I modeled 
 [nanomaterials](http://science.sciencemag.org/content/333/6045/999.abstract)
 using software [simulation](https://www.vasp.at/) [packages](http://www.quantum-espresso.org/).
