@@ -19,6 +19,6 @@ I have a passion for the field of education. I have been teaching physics, chemi
 
 ### Contact me
 
-[lucia.palova@gmail.com](mailto:email@domain.com)
-[linked.in](https://www.linkedin.com/in/luciapalova)
+[lucia.palova@gmail.com](mailto:email@domain.com)   
+[linked.in](https://www.linkedin.com/in/luciapalova)   
 [Resume](/Resume_Lucia_Palova.pdf)
