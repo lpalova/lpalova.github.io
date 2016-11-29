@@ -8,7 +8,7 @@ I am a trained physicist with a Ph.D. from [Rutgers University](http://www.physi
 
 I have a passion for education. I have been teaching physics, chemistry and math classes at regular, advanced and honors levels, and worked with talented high school students since 2001. As a faculty at [New Jersey Institute of Technology](http://www.njit.edu/), I taught undergraduate calculus, financial math and statistics.
 
-Recently, I've got involved in doing some data science. Please check my projects [here](http://lpalova.github.io/), or 
+Recently, I've got involved in data science work. Please check my projects [here](http://lpalova.github.io/), or 
 [here](https://github.com/lpalova). I work with data, use visualization, predictive modeling, machine learning, some cloud computing ([AWS](https://aws.amazon.com/)).
 I know [R](https://www.coursera.org/account/accomplishments/specialization/certificate/LL4BR8M6KAGX), 
 [Python](http://www.thisismetis.com/), 
