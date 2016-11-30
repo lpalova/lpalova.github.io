@@ -11,7 +11,7 @@ I have a passion for education. I have been teaching physics, chemistry and math
 Recently, I've got involved in data science work. Please check my projects [here](http://lpalova.github.io/), or 
 [here](https://github.com/lpalova). I work with data, use visualization, predictive modeling, machine learning, cloud computing (e.g., [AWS](https://aws.amazon.com/)).
 I know [R](https://www.coursera.org/account/accomplishments/specialization/certificate/LL4BR8M6KAGX), 
-[Python](http://www.thisismetis.com/), 
+Python, 
 [SQL](https://prod-cert-bucket.s3.amazonaws.com/downloads/887f1902d7c941cda709f846f642f8e8/Statement.pdf).
 
 I am open to new opportunities in teaching, data analysis, or research. 
