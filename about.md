@@ -17,7 +17,7 @@ I managed anywhere from 10 to 60 students per class, created syllabi,
 teaching materials, exams, assigned homework, quizzes, and final grades.
 
 Recently, I've got involved in data science work. Please check some of my projects [here](http://lpalova.github.io/), or 
-[here](https://github.com/lpalova). I have completed a few data science projects, with focus on 
+[here](https://github.com/lpalova). I have completed data science projects, with focus on 
 data acquisition, cleansing, visualization, machine learning, predictive modeling and 
 cloud computing (e.g., [AWS](https://aws.amazon.com/)).
 I use [R](https://www.coursera.org/account/accomplishments/specialization/certificate/LL4BR8M6KAGX), 
