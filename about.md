@@ -15,7 +15,7 @@ As a faculty at [New Jersey Institute of Technology](http://math.njit.edu/), I t
 I managed anywhere from 10 to 60 students per class, created syllabi, 
 teaching materials, including homework, quizzes, exams, and assigned grades.
 
-Recently, I've got involved in data science work. Please check my projects [here](http://lpalova.github.io/), or 
+Recently, I've got involved in data science work. Please check some of my projects [here](http://lpalova.github.io/), or 
 [here](https://github.com/lpalova). I have completed various data science projects, with focus on 
 data acquisition, cleansing, visualization, machine learning, predictive modeling and 
 cloud computing (e.g., [AWS](https://aws.amazon.com/)).
