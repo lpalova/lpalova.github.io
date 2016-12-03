@@ -4,9 +4,9 @@ title: My Story
 permalink: /about/
 ---
 
-I am a trained physicist with a Ph.D. from [Rutgers University](http://www.physics.rutgers.edu/). I conducted research in condensed matter physics, characterized ferroelectric materials in bulk, thin-film and nanostructure geometries using a combination of numerical and analytical techniques. 
+I am a trained physicist with a Ph.D. from [Rutgers University](http://www.physics.rutgers.edu/). I conducted research in condensed matter physics, described ferroelectric materials in bulk, thin-film and nanostructure geometries using a combination of numerical and analytical techniques. 
 As a postdoctoral researcher at [Columbia University](http://www.columbia.edu/), 
-I described electronic structure of nitrogen- and boron-doped graphene.
+I characterized electronic properties of nitrogen- and boron-doped graphene.
 I modeled [nanomaterials](http://science.sciencemag.org/content/333/6045/999.abstract) using software [simulation](https://www.vasp.at/) [packages](http://www.quantum-espresso.org/). I collaborated with other scientists, presented at conferences and published results of my work in top peer-reviewed scientific journals.
 
 I have a passion for education. I have been teaching physics, chemistry and math classes at regular, advanced and honors levels, and worked with talented high school students since 2001. As a faculty at [New Jersey Institute of Technology](http://www.njit.edu/), I taught multiple undergraduate classes, including Calculus, Mathematics of Finance, Statistics and Probability. 
