@@ -26,7 +26,7 @@ Python, or
 [SQL](https://prod-cert-bucket.s3.amazonaws.com/downloads/887f1902d7c941cda709f846f642f8e8/Statement.pdf).
 
 I am open to new opportunities in teaching, data analysis, or research. 
-I am an independent thinker, quick learner, continuously learning new ideas through many meetups and conferences.
+I am an independent thinker, quick learner, continuously learning new skills at meetups, conferences.
 Areas of my interests include education, technology and research, green energy, and more.
 
 ### Contact me
