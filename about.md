@@ -12,7 +12,7 @@ I modeled [nanomaterials](http://science.sciencemag.org/content/333/6045/999.abs
 I have a passion for education. I have been teaching physics, chemistry and math classes at regular, advanced and honors levels, and worked with talented high school students since 2001. 
 At Rutgers, I taught general physics recitation and laboratory classes and worked with undergratuate students. 
 As a faculty at [New Jersey Institute of Technology](http://math.njit.edu/), 
-I taught multiple undergraduate mathematics classes, including Calculus, Mathematics of Finance, Statistics and Probability. 
+I taught multiple undergraduate mathematics classes, including calculus, mathematics of finance, statistics and probability. 
 I managed anywhere from 10 to 60 students per class, created syllabi, 
 teaching materials, including homework, quizzes, exams, and assigned grades.
 
