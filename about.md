@@ -25,9 +25,9 @@ I use [R](https://www.coursera.org/account/accomplishments/specialization/certif
 Python, or
 [SQL](https://prod-cert-bucket.s3.amazonaws.com/downloads/887f1902d7c941cda709f846f642f8e8/Statement.pdf).
 
-I am open to new opportunities in teaching, data analysis, or research. 
+I am open to new opportunities in data analysis, research, or teaching. 
 I am an independent thinker, quick learner, continuously learning new skills at meetups and conferences.
-Areas of my interests include education, technology and research, green energy, and more.
+Areas of my interests include technology and research, education, energy and more.
 
 ### Contact me
 
