@@ -27,7 +27,7 @@ Python, or
 
 I am open to new opportunities in data analysis, research, or teaching. 
 I am an independent thinker, quick learner, continuously learning new skills at meetups and conferences.
-Areas of my interests include technology and research, education, energy and more.
+Areas of my interests include technology, education and research, green energy and more.
 
 ### Contact me
 
