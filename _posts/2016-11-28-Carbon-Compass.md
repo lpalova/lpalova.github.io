@@ -3,7 +3,7 @@ layout: post
 title: 
 ---
 
-A simplified model of [carbon compass](https://lpalova.shinyapps.io/carbon_compass_app/).
+A shiny app model of [carbon compass](https://lpalova.shinyapps.io/carbon_compass_app/) for NYC buildings.
 
 
 
