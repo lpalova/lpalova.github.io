@@ -27,6 +27,5 @@ Python, or
 
 ### Contact me
 
-[lucia.palova@gmail.com](mailto:email@domain.com)   
 [Linked.in](https://www.linkedin.com/in/luciapalova)  
 [Resume](/Resume_Lucia_Palova.pdf) 
