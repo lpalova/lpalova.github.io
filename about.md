@@ -25,7 +25,3 @@ I use [R](https://www.coursera.org/account/accomplishments/specialization/certif
 Python, or
 [SQL](https://prod-cert-bucket.s3.amazonaws.com/downloads/887f1902d7c941cda709f846f642f8e8/Statement.pdf).
 
-### Contact me
-
-[Linked.in](https://www.linkedin.com/in/luciapalova)  
-[Resume](/Resume_Lucia_Palova.pdf) 
