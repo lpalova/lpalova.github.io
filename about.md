@@ -16,12 +16,5 @@ I taught multiple mathematics classes, including calculus, mathematics of financ
 I managed anywhere from 10 to 60 students per class, created syllabi, 
 teaching materials, exams, assigned homework, quizzes, and final grades.
 
-Recently, I've got involved in data science work. Please check some of my projects [here](http://lpalova.github.io/), or 
-[here](https://github.com/lpalova). I have used
-data acquisition, cleansing and visualization tools, 
-machine learning, predictive modeling and 
-cloud computing (e.g., [AWS](https://aws.amazon.com/)).
-I use [R](https://www.coursera.org/account/accomplishments/specialization/certificate/LL4BR8M6KAGX), 
-Python, or
-[SQL](https://prod-cert-bucket.s3.amazonaws.com/downloads/887f1902d7c941cda709f846f642f8e8/Statement.pdf).
+I am currently a data scientist working for [Prudential Financial](https://www.linkedin.com/in/luciapalova/) in Newark,NJ where I address business needs and deliver solutions that maximize business impact in a variety of insurance products, using advanced quantitative, analytical, and statistical methods. I am in charge of preparing and presenting written and verbal reports to business partners, developing machine learning models using tools such as Python, R, SQL, SAS.
 
